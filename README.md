@@ -1,3 +1,5 @@
+LINK : https://portfolioalfahrulozi.netlify.app/
+
 # Portofolio — Al Fahrul Ozi
 
 Website portofolio pribadi **Al Fahrul Ozi**, seorang Full-Stack IT Developer.
