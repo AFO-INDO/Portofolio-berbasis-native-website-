@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" font-family="'Segoe UI',Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c1c1c"/><stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <radialGradient id="gl5" cx="0.4" cy="0.25" r="0.7">
+      <stop offset="0" stop-color="#c9a227" stop-opacity="0.33"/><stop offset="1" stop-color="#c9a227" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#bg5)"/>
+  <rect width="640" height="400" fill="url(#gl5)"/>
+  <g stroke="#ffffff" stroke-opacity="0.05">
+    <path d="M0 100H640M0 200H640M0 300H640M160 0V400M320 0V400M480 0V400"/>
+  </g>
+  <!-- task list -->
+  <rect x="200" y="96" width="240" height="200" rx="8" fill="#101010" stroke="#c9a227" stroke-opacity="0.5"/>
+  <rect x="220" y="116" width="120" height="14" rx="3" fill="#c9a227"/>
+  <g>
+    <rect x="220" y="146" width="22" height="22" rx="4" fill="#c9a227"/>
+    <path d="M225 157l4 4 7-8" fill="none" stroke="#000" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="252" y="150" width="168" height="9" rx="3" fill="#3a3a3a"/>
+  </g>
+  <g>
+    <rect x="220" y="184" width="22" height="22" rx="4" fill="#c9a227"/>
+    <path d="M225 195l4 4 7-8" fill="none" stroke="#000" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="252" y="188" width="140" height="9" rx="3" fill="#3a3a3a"/>
+  </g>
+  <g>
+    <rect x="220" y="222" width="22" height="22" rx="4" fill="none" stroke="#666" stroke-width="2"/>
+    <rect x="252" y="226" width="160" height="9" rx="3" fill="#3a3a3a"/>
+  </g>
+  <g>
+    <rect x="220" y="260" width="22" height="22" rx="4" fill="none" stroke="#666" stroke-width="2"/>
+    <rect x="252" y="264" width="120" height="9" rx="3" fill="#3a3a3a"/>
+  </g>
+  <text x="40" y="360" fill="#c9a227" font-size="20" font-weight="800" letter-spacing="2">MOBILE · PRODUCTIVITY</text>
+</svg>

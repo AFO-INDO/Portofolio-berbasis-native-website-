@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Al Fahrul Ozi — IT Developer Portfolio</title>
+<meta name="description" content="Portofolio Al Fahrul Ozi - Full-Stack IT Developer. Web, Mobile, Desktop & Database." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="progress"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="index.html" class="logo"><span class="mk">A</span> Al Fahrul Ozi</a>
+  <div class="nav-links" id="navLinks">
+    <a href="index.html" class="active">Home</a>
+    <a href="index.html#about">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="experience.html">Experience</a>
+    <a href="documentation.html">Documentation</a>
+    <a href="certificates.html">Certificates</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <button class="burger" id="burger" aria-label="menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="home">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-watermark display">Developer</div>
+  <div class="hero-layout">
+    <div class="hero-inner">
+      <span class="eyebrow reveal">Available for Work</span>
+      <h1 class="display reveal" data-delay="1">
+        <span class="stroke">Al Fahrul</span>
+        <span class="fill">Ozi</span>
+      </h1>
+      <div class="typed-wrap reveal" data-delay="2"><span id="typed-text"></span><span class="cursor">_</span></div>
+      <p class="lead reveal" data-delay="3">IT Developer dengan spesialisasi pengembangan produk digital dan manajemen database. Mengintegrasikan arsitektur backend yang aman dengan antarmuka frontend yang interaktif — berkomitmen pada clean code.</p>
+      <div class="hero-cta reveal" data-delay="4">
+        <a href="contact.html" class="btn btn-gold">Hubungi Saya <span class="arr"><i class="fa-solid fa-arrow-right"></i></span></a>
+        <a href="experience.html" class="btn btn-ghost">Lihat Pengalaman</a>
+      </div>
+    </div>
+    <div class="hero-photo reveal" data-delay="2">
+      <div class="hero-photo-frame">
+        <img src="image/foto-utama.png" alt="Al Fahrul Ozi" />
+        <span class="photo-tag display">IT Developer</span>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue">
+    <div class="mouse"></div>
+    Scroll
+  </div>
+</header>
+
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Full-Stack Web</span><span>Flutter Mobile</span><span>Desktop Apps</span>
+    <span>Database &amp; API</span><span>UI / UX Design</span><span>AI-Assisted Dev</span>
+    <span>Full-Stack Web</span><span>Flutter Mobile</span><span>Desktop Apps</span>
+    <span>Database &amp; API</span><span>UI / UX Design</span><span>AI-Assisted Dev</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about sec-dark" id="about">
+  <div class="sec-head reveal">
+    <span class="sec-index">About</span>
+    <h2 class="display">Mengenal <em>Lebih&nbsp;Dekat</em></h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <h3>Multi-Platform <span>IT Developer</span></h3>
+      <p>Saya seorang mahasiswa Sistem Informasi yang berorientasi pada detail, adaptif terhadap teknologi baru, dan terbiasa bekerja dengan target. Saya membangun aplikasi web full-stack, mobile, hingga desktop, serta mengelola database dan integrasi API.</p>
+      <p>Saya memanfaatkan AI Agent Engineering untuk mempercepat proses coding dan debugging, sambil tetap menjunjung tinggi kualitas kode yang bersih dan terstruktur.</p>
+      <div class="quick-facts">
+        <div class="fact"><strong>Lokasi</strong><span>Padang, Indonesia</span></div>
+        <div class="fact"><strong>Fokus</strong><span>Full-Stack Dev</span></div>
+        <div class="fact"><strong>Pendidikan</strong><span>S1 Sistem Informasi</span></div>
+        <div class="fact"><strong>Bahasa</strong><span>ID &amp; EN</span></div>
+      </div>
+    </div>
+    <div class="stats reveal" data-delay="1">
+      <div class="stat-card"><div class="stat-num" data-count="3">0</div><p>Platform Dikuasai</p></div>
+      <div class="stat-card"><div class="stat-num" data-count="6"><span class="plus">+</span></div><p>Pengalaman Kerja</p></div>
+      <div class="stat-card"><div class="stat-num" data-count="5"><span class="plus">+</span></div><p>Sertifikasi</p></div>
+      <div class="stat-card"><div class="stat-num" data-count="6"><span class="plus">+</span></div><p>Organisasi</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="education" id="education">
+  <div class="sec-head reveal">
+    <span class="sec-index">Education</span>
+    <h2 class="display">Riwayat <em>Pendidikan</em></h2>
+  </div>
+  <div class="edu-grid">
+    <div class="edu-card reveal">
+      <span class="big-no display">01</span>
+      <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+      <h3>S1 Sistem Informasi</h3>
+      <div class="school">STMIK AMIK Jayanusa</div>
+      <div class="year">2023 – Sekarang (Semester 6)</div>
+    </div>
+    <div class="edu-card reveal" data-delay="1">
+      <span class="big-no display">02</span>
+      <div class="edu-icon"><i class="fa-solid fa-flask"></i></div>
+      <h3>Kimia Industri</h3>
+      <div class="school">SMK SMTI Padang</div>
+      <div class="year">2016 – 2019</div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPLORE CTA -->
+<section class="sec-dark explore">
+  <div class="sec-head reveal" style="text-align:center;margin:0 auto 50px;max-width:680px">
+    <span class="sec-index" style="justify-content:center">Jelajahi</span>
+    <h2 class="display">Selengkapnya</h2>
+    <p class="sub" style="margin-left:auto;margin-right:auto">Lihat keahlian, pengalaman, sertifikasi, dan cara menghubungi saya pada halaman khusus.</p>
+  </div>
+  <div class="explore-grid">
+    <a href="skills.html" class="explore-card reveal"><span class="display">Skills</span><i class="fa-solid fa-arrow-right"></i></a>
+    <a href="experience.html" class="explore-card reveal" data-delay="1"><span class="display">Experience</span><i class="fa-solid fa-arrow-right"></i></a>
+    <a href="documentation.html" class="explore-card reveal" data-delay="2"><span class="display">Documentation</span><i class="fa-solid fa-arrow-right"></i></a>
+    <a href="certificates.html" class="explore-card reveal" data-delay="3"><span class="display">Certificates</span><i class="fa-solid fa-arrow-right"></i></a>
+    <a href="contact.html" class="explore-card reveal" data-delay="4"><span class="display">Contact</span><i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+</section>
+
+<footer>
+  <a href="index.html" class="logo"><span class="mk">A</span> Al Fahrul Ozi</a>
+  <p>&copy; <span id="year"></span> Al Fahrul Ozi — IT Developer.</p>
+</footer>
+
+<button id="toTop" aria-label="back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
